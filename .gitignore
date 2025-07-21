@@ -1,0 +1,396 @@
+# ===== BACKEND (Python/Flask) GENERATED FILES =====
+
+# Virtual Environment
+backend/venv/
+backend/venv/bin/
+backend/venv/lib/
+backend/venv/include/
+backend/venv/share/
+backend/venv/pyvenv.cfg
+backend/env/
+backend/ENV/
+backend/.venv/
+
+# Python Generated Files
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/**/*.py[cod]
+backend/*$py.class
+backend/**/*$py.class
+backend/*.so
+backend/**/*.so
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/pip-wheel-metadata/
+backend/share/python-wheels/
+backend/*.egg-info/
+backend/**/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/MANIFEST
+
+# Flask Generated Files
+backend/instance/
+backend/.webassets-cache
+backend/migrations/
+backend/flask_session/
+
+# Python Logs and Cache
+backend/*.log
+backend/**/*.log
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+backend/.cache
+backend/nosetests.xml
+backend/coverage.xml
+backend/*.cover
+backend/.hypothesis/
+
+# ===== FRONTEND (React/Node.js) GENERATED FILES =====
+
+# Dependencies
+frontend/node_modules/
+frontend/jspm_packages/
+node_modules/
+jspm_packages/
+
+# Build Output
+frontend/build/
+frontend/dist/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.vuepress/dist/
+
+# React/TypeScript Generated Files
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/.nyc_output/
+frontend/lib-cov/
+frontend/coverage/
+frontend/.grunt/
+frontend/.lock-wscript
+
+# Logs
+frontend/logs/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime and Process Files
+frontend/pids/
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and Testing
+frontend/coverage/
+frontend/*.lcov
+frontend/.nyc_output/
+coverage/
+*.lcov
+.nyc_output/
+
+# Cache Directories
+frontend/.npm/
+frontend/.eslintcache
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.fusebox/
+.npm/
+.eslintcache
+.cache/
+.parcel-cache/
+.fusebox/
+
+# Yarn
+frontend/.yarn-integrity
+frontend/.pnp.*
+.yarn-integrity
+.pnp.*
+
+# Package Files
+frontend/*.tgz
+*.tgz
+
+# Optional Files
+frontend/.node_repl_history
+.node_repl_history
+
+# Serverless
+frontend/.serverless/
+.serverless/
+
+# DynamoDB Local
+frontend/.dynamodb/
+.dynamodb/
+
+# TernJS
+frontend/.tern-port
+.tern-port
+
+# Storybook
+frontend/storybook-static/
+storybook-static/
+
+# ===== ENVIRONMENT AND CONFIG FILES =====
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Allow .env.example files (these should be committed)
+!backend/.env.example
+!frontend/.env.example
+!.env.example
+
+# Configuration Files
+.config/
+config.json
+config.js
+.secrets/
+
+# ===== DATABASE FILES =====
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+frontend/*.db
+frontend/*.sqlite
+frontend/*.sqlite3
+
+# Other Databases
+*.mdb
+*.accdb
+*.dbf
+
+# ===== SYSTEM FILES =====
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== IDE AND EDITOR FILES =====
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+
+# ===== TEMPORARY AND BACKUP FILES =====
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*~
+
+# Archive files (if generated)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===== DEPLOYMENT AND CI/CD =====
+
+# Docker
+.dockerignore
+Dockerfile.prod
+docker-compose.override.yml
+
+# Kubernetes
+*.yaml.bak
+*.yml.bak
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# AWS
+.aws/
+*.pem
+
+# ===== MISCELLANEOUS =====
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Security
+*.key
+*.pem
+*.p12
+*.crt
+*.csr
+*.pfx
+
+# Local development
+local_settings.py
+.local/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
